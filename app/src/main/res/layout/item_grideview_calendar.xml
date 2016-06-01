@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="45dp" android:layout_height="56dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/ll_item"
+    android:minHeight="53dp"
+    >
+
+
+    <TextView
+        android:id="@+id/tv_day"
+        android:layout_width="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="13sp"
+        android:textColor="@color/font_333333"
+        android:singleLine="true"/>
+
+    <TextView
+        android:id="@+id/tv_price"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:textColor="@color/font_999999"
+        android:singleLine="true"/>
+
+</LinearLayout>
